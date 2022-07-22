@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-saturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slight-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-size: 15px;
+}
+
+.container {
+    max-width: 400px;
+    width: 80%;
+    margin: 4em auto;
+}
+
+.card-background {
+    background-color: var(--dark-saturated-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 7px 7px;
+}
+
+.text-content {
+    text-align: center;
+    margin: auto 2.2em;
+}
+
+.title {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    padding: 1em 0em 0.8em 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.purple {
+    color: var(--soft-violet);
+}
+
+.desc {
+    color: var(--slightly-transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0.5em;
+}
+
+.stats {
+    padding: 1em 0;
+}
+
+.number {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name {
+    text-transform: uppercase;
+    color: var(--slight-transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 0.5em 0;
+    letter-spacing: 1px;
+}
+
+.stat {
+    margin-bottom: 1em;
+}
+
+.queries {
+    margin-left: 5px;
+}
+
+.img-holder {
+    background-color: var(--soft-violet);
+    border-radius: 7px 7px 0 0;
+}
+
+.img {
+    content: url(/images/image-header-mobile.jpg);
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        margin: 5em auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 800px;
+        margin: 10em auto;
+    }
+
+    .card-background {
+        width: 70%;
+        padding: 0 2em;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .img, .img-holder {
+        border-radius: 0 5px 5px 0;
+    }
+
+
+    .img-holder {
+        width: 65%;
+    }
+
+    .img {
+        content: url(/images/image-header-desktop.jpg);
+        height: 370px;
+    }
+
+    .text-content {
+        margin-top: 2.5em;
+        width: 90%;
+        text-align: left;
+    }
+
+    .stats {
+        display: flex;
+    }
+
+    .stat {
+        margin-right: 2.5em;
+    }
+
+    .ten-k {
+        margin-right: 1em;
+    }
+
+    .three-fourteen {
+        margin-right: 1.2em;
+    }
+
+    .twelve {
+        margin-left: 0.2em;
+    }
+
+}
