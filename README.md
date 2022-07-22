@@ -39,7 +39,7 @@ This is a solution to the [Stats Preview Card Component challenge on Frontend Me
 ### Links
 
  - Source code: [https://github.com/romila2003/Stats-Preview-Card-Component](https://github.com/romila2003/Stats-Preview-Card-Component)
- - Live website: []()
+ - Live website: [https://frontend-stats-preview-card-component.netlify.app/](https://frontend-stats-preview-card-component.netlify.app/)
 
 ## My process
 
