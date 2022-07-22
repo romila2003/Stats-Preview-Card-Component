@@ -25,15 +25,15 @@ This is a solution to the [Stats Preview Card Component challenge on Frontend Me
 
 # Mobile Preview 
 
-![screenshot](#)
+![screenshot](https://github.com/romila2003/Stats-Preview-Card-Component/blob/main/Mobile%20Preview.PNG)
 
 # Tablet Preview
 
-![screenshot](#)
+![screenshot](https://github.com/romila2003/Stats-Preview-Card-Component/blob/main/Tablet%20Preview.PNG)
 
 # Desktop Preview 
 
-![screenshot](#)
+![screenshot](https://github.com/romila2003/Stats-Preview-Card-Component/blob/main/Desktop%20Preview.PNG)
 
 
 ### Links
